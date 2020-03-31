@@ -26,7 +26,14 @@ The counter will expand to the size of the container. Invoke it with:
 circleCounter.start("myCounter", 5, 10);
 ```
 
-The syntax is:
+## Syntax
+
+Start:
 ``` javascript
 circleCounter.start( elementName, duration, thickness, callbackFunction );
+```
+
+Stop:
+``` javascript
+circleCounter.stop();
 ```

@@ -41,9 +41,14 @@ var circleCounter={
                 }
                 if (!active)
                 {
-                    clearInterval(circleCounter);
+                    circleCounter.stop();
                 }
             }, 1000);
+    },
+    stop:function(){
+        circleCounter._counterList=[];
+        clearInterval(circleCounter.counter);
+        circleCounter.counter=null;
     },
     _counterList:[],
     _callbacks:[],
