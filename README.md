@@ -1,6 +1,8 @@
 # circleCounterJS
 JavaScript Circle Time Counter without dependencies
 
+Sample:
+
 ![sample](./sample.png)
 
 Add the stylesheet and javascript to your html page:
